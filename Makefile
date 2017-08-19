@@ -3,3 +3,6 @@ init:
 
 build:
 	java -cp cljs.jar:src clojure.main build.clj
+
+open:
+	open index.html
