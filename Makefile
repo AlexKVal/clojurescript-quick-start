@@ -4,5 +4,8 @@ init:
 build:
 	java -cp cljs.jar:src clojure.main build.clj
 
+auto:
+	java -cp cljs.jar:src clojure.main watch.clj
+
 open:
 	open index.html
