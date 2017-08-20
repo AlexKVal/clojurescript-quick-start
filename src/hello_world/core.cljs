@@ -1,9 +1,10 @@
-(ns hello-world.core)
+(ns
+  ^{:doc "ClojureScript main playground"}
+  hello-world.core
+  (:require [cljsjs.react :as r]))
 
 (enable-console-print!)
 
-(println "Hello world!")
+(println "Hello React")
 
-(. js/console log "this is console log")
-
-(defn foo [a b] (* a b))
+(.log js/console "this is a bit of js interop")
