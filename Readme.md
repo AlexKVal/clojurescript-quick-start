@@ -9,3 +9,6 @@ Run
 Open in a browser `index.html`.
 
 Enjoy auto-rebuilding.
+
+If you need a REPL, then run `make repl`
+and open in a browser [http://localhost:9000](http://localhost:9000)

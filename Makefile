@@ -7,5 +7,8 @@ build:
 auto:
 	java -cp cljs.jar:src clojure.main watch.clj
 
+repl:
+	java -cp cljs.jar:src clojure.main repl.clj
+
 open:
 	open index.html

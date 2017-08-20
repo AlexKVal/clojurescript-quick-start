@@ -5,3 +5,5 @@
 (println "Hello world!")
 
 (. js/console log "this is console log")
+
+(defn foo [a b] (* a b))
